@@ -1,0 +1,37 @@
+{
+  "name": "chattw",
+  "version": "1.0.0",
+  "description": "midterm project",
+  "main": "src/main.js",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack -p",
+    "lint": "eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxzhe/ChatTW.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Jiang, Xinzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jxzhe/ChatTW/issues"
+  },
+  "homepage": "https://github.com/jxzhe/ChatTW#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
